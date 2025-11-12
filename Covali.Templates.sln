@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covali.Templates", "Covali.Templates\Covali.Templates.csproj", "{769373FD-6ACB-461F-8CB0-D40EF16AFBD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covali.Templates.Abstractions", "Covali.Templates.Abstractions\Covali.Templates.Abstractions.csproj", "{4886DF43-3215-44CF-8EEA-7B6971903F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covali.Templates.EntityFramework", "Covali.Templates.EntityFramework\Covali.Templates.EntityFramework.csproj", "{926D3EE6-571A-47DD-9854-163980AB5956}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{769373FD-6ACB-461F-8CB0-D40EF16AFBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769373FD-6ACB-461F-8CB0-D40EF16AFBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769373FD-6ACB-461F-8CB0-D40EF16AFBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769373FD-6ACB-461F-8CB0-D40EF16AFBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4886DF43-3215-44CF-8EEA-7B6971903F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4886DF43-3215-44CF-8EEA-7B6971903F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4886DF43-3215-44CF-8EEA-7B6971903F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4886DF43-3215-44CF-8EEA-7B6971903F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926D3EE6-571A-47DD-9854-163980AB5956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926D3EE6-571A-47DD-9854-163980AB5956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926D3EE6-571A-47DD-9854-163980AB5956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926D3EE6-571A-47DD-9854-163980AB5956}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

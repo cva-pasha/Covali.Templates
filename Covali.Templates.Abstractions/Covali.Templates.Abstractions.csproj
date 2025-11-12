@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>Covali.Templates.Abstractions</Title>
+        <PackageId>Covali.Templates.Abstractions</PackageId>
+        <PackageProjectUrl>https://www.nuget.org/packages/Covali.Templates</PackageProjectUrl>
+
+        <Version>9.0.0</Version>
+        <Description>Abstractions for Covali.Templates. Contains interfaces (ITemplateService), DTOs (TemplateDto), request models, and enums for building multi-tenant template storage systems. This package has minimal dependencies and can be used for defining contracts without pulling in implementation details.</Description>
+
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/cva-pasha/Covali.Templates</RepositoryUrl>
+
+        <Authors>cva_pasha</Authors>
+        <Copyright>Copyright (c) 2025 cva_pasha</Copyright>
+        <LicenseUrl>https://github.com/cva-pasha/Covali.Templates/blob/main/LICENSE.txt</LicenseUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageIcon>cva_pasha_nfc.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageType>Dependency</PackageType>
+        <PackageTags>Covali;Templates;Abstractions;</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\cva_pasha_nfc.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+
+</Project>
