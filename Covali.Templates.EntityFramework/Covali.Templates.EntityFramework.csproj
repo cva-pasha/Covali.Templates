@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>Covali.Templates.EntityFramework</Title>
+        <PackageId>Covali.Templates.EntityFramework</PackageId>
+        <PackageProjectUrl>https://www.nuget.org/packages/Covali.Templates</PackageProjectUrl>
+
+        <Version>9.0.0</Version>
+        <Description>Entity Framework Core infrastructure for Covali.Templates. Provides Template entity, AbstractTemplateDbContext, ITemplateDbContext interface, and EF Core configurations with optimized indexes for multi-tenant template storage.</Description>
+
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/cva-pasha/Covali.Templates</RepositoryUrl>
+
+        <Authors>cva_pasha</Authors>
+        <Copyright>Copyright (c) 2025 cva_pasha</Copyright>
+        <LicenseUrl>https://github.com/cva-pasha/Covali.Templates/blob/main/LICENSE.txt</LicenseUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageIcon>cva_pasha_nfc.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageType>Dependency</PackageType>
+        <PackageTags>Covali;Templates;EntityFramework</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Covali.EntityFramework" Version="9.0.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.10" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Covali.Templates.Abstractions\Covali.Templates.Abstractions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\cva_pasha_nfc.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+
+
+</Project>
